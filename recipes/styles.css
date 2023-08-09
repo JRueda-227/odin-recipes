@@ -11,13 +11,9 @@ body {
 }
 
 img {
-    width: 200px;
-    height: auto;
+    width: 400px;
     display: inline-block;
-}
-
-h1 {
-
+    vertical-align: top;
 }
 
 p {
@@ -25,7 +21,7 @@ p {
 }
 
 .recipe-card {
-    width: 800px;
+    width: 1000px;
     background-color: white;
     margin: 20px auto;
     box-shadow: 1px 1px black;
@@ -35,6 +31,7 @@ p {
     display: inline-block;
     padding: 20px;
     width: 580px;
+    vertical-align: top;
 }
 
 .recipe-info ul {
@@ -50,6 +47,3 @@ p {
 .ingredients ul {
     list-style: square;
 }
-
-
-
