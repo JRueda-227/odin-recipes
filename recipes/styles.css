@@ -1,3 +1,55 @@
-body {
-    font-size: 16px;
+* {
+    line-height: 1.5;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkred;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    display: inline-block;
+}
+
+h1 {
+
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.recipe-card {
+    width: 800px;
+    background-color: white;
+    margin: 20px auto;
+    box-shadow: 1px 1px black;
+}
+
+.recipe-content {
+    display: inline-block;
+    padding: 20px;
+    width: 580px;
+}
+
+.recipe-info ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.sub {
+    color: darkred;
+    margin: 8px;
+}
+
+.ingredients ul {
+    list-style: square;
+}
+
+
+
